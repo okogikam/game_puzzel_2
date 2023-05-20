@@ -1,6 +1,6 @@
 {
-  "short_name": "tmp_2",
-  "name": "template_pwa_2",
+  "short_name": "game_puzzel",
+  "name": "game_puzzel_2",
   "icons": [
     {
       "src": "dist/img/AdminLTELogo.png",
@@ -15,11 +15,11 @@
       "purpose": "any"
     } 
   ],
-  "start_url": "./",
+  "start_url": "/game_puzzel_2/",
   "background_color": "#007bff",
   "display": "standalone",
   "orientation": "landscape",
-  "scope": "./",
+  "scope": "/game_puzzel_2/",
   "theme_color": "#fff",
   "crossorigin": "use-credetials"
 }
