@@ -15,11 +15,11 @@
       "purpose": "any"
     } 
   ],
-  "start_url": "/template_pwa_2-master/",
+  "start_url": "./",
   "background_color": "#007bff",
   "display": "standalone",
   "orientation": "landscape",
-  "scope": "/template_pwa_2-master/",
+  "scope": "./",
   "theme_color": "#fff",
   "crossorigin": "use-credetials"
 }
