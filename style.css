@@ -12,6 +12,35 @@
 body{
   transition: 1s;  
 }
+.load{
+  background-color: #3e4e6d;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  color: #c9ccd4;
+  font-size: 2rem;
+  font-size: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+}
+.load_hide{
+  animation: load-hide 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes load-hide {
+	0% {
+		transform: scaleY(1);
+	}
+
+	100% {
+		transform: scaleY(0);
+	}
+}
 .card-2 {
   position: relative;
   display: block;
@@ -122,7 +151,7 @@ body{
   max-width: 100%;
 }
 .side_data{
-  transition: width 2s linear 1s;
+  transition: width 1s linear 0.5s;
   z-index: 999;
 }
 .menu_view{
@@ -181,22 +210,22 @@ body{
 .grid_view h2{
   position: absolute;
   top: 5%;
-  left: 5px;
+  left: 5%;
   border-radius: 10px;
   opacity: 0.85;
   /* right: 0px; */
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: #3e4e6d;
   background-color: #c9ccd4;
   box-shadow: 1px 2px 2px #c9ccd4;
 }
 .level .btn{
-  font-size: 1rem;
+  font-size: 1em;
   width: 150px;
   position: relative;
 }
 .grid_view .level .btn{
-  font-size: 0.5rem;
+  font-size: 1em;
   margin: 0px;
   width: max-content;
 }
@@ -254,4 +283,9 @@ body{
   color: #3e4e6d;
   background-color: #c9ccd4;
   box-shadow: 1px 2px 2px #c9ccd4;
+}
+@media screen and(max-width:660px) {
+  .grid_view .level .btn{
+    font-size: 0.5em;
+  }
 }

@@ -32,6 +32,7 @@
     <style></style>
   </head>
   <body class="hold-transition content">
+    <div class="load load_hide"></div>
     <!-- Automatic element centering -->
     <div class="content-wrapper">
       <div class="user-control">
@@ -47,98 +48,8 @@
           <button class="btn stage_menu" onclick="stage_view()">grid</button>
         </div>
       </div>
-      <div class="slide_view">
-        <section id="image-carousel" class="splide" aria-label="Beautiful Images">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <h2>Level 1</h2>
-                <img src="dist/img/photo1.jpg" alt="">
-                <div class="level">
-                  <button class="btn btn-success">Eazy<span>00:10:00</span></button>
-                  <button class="btn btn-primary">Medium<span>00:10:00</span></button>
-                  <button class="btn btn-danger">Hard<span>00:00:00</span></button>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <h2>Level 2</h2>
-                <img src="dist/img/photo2.jpg" alt="">
-                <div class="level">
-                  <button class="btn btn-success">Eazy<span>00:10:00</span></button>
-                  <button class="btn btn-primary">Medium<span>00:10:00</span></button>
-                  <button class="btn btn-danger">Hard<span>00:00:00</span></button>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <h2>Level 3</h2>
-                <img src="dist/img/photo3.jpg" alt="">
-                <div class="level">
-                  <button class="btn btn-success">Eazy<span>00:10:00</span></button>
-                  <button class="btn btn-primary">Medium<span>00:10:00</span></button>
-                  <button class="btn btn-danger">Hard<span>00:00:00</span></button>
-                </div>
-              </li>
-              <li class="splide__slide">
-                <h2>Level 4</h2>
-                <img src="dist/img/photo4.jpg" alt="">
-                <div class="level">
-                  <button class="btn btn-success">Eazy<span>00:10:00</span></button>
-                  <button class="btn btn-primary">Medium<span>00:10:00</span></button>
-                  <button class="btn btn-danger">Hard<span>00:00:00</span></button>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+      <div class="slide_view"></div>
       <div class="grid_view d-none">
-        <div class="row">
-          <div class="stage col-4 p-2">
-            <h2>Level 1</h2>
-            <img src="./dist/img/photo1.jpg" alt="">
-            <div class="level">
-              <button class="btn btn-success">Eazy</button>
-              <button class="btn btn-primary">Medium</button>
-              <button class="btn btn-danger">Hard</button>
-            </div>
-          </div>
-          <div class="stage col-4 p-2">
-            <h2>Level 2</h2>
-            <img src="./dist/img/photo2.jpg" alt="">
-            <div class="level">
-              <button class="btn btn-success">Eazy</button>
-              <button class="btn btn-primary">Medium</button>
-              <button class="btn btn-danger">Hard</button>
-            </div>
-          </div>
-          <div class="stage col-4 p-2">
-            <h2>Level 3</h2>
-            <img src="./dist/img/photo3.jpg" alt="">
-            <div class="level">
-              <button class="btn btn-success">Eazy</button>
-              <button class="btn btn-primary">Medium</button>
-              <button class="btn btn-danger">Hard</button>
-            </div>
-          </div>
-          <div class="stage col-4 p-2">
-            <h2>Level 4</h2>
-            <img src="./dist/img/photo4.jpg" alt="">
-            <div class="level">
-              <button class="btn btn-success">Eazy</button>
-              <button class="btn btn-primary">Medium</button>
-              <button class="btn btn-danger">Hard</button>
-            </div>
-          </div>
-          <div class="stage col-4 p-2">
-            <h2>Level 5</h2>
-            <img src="./dist/img/photo5.jpg" alt="">
-            <div class="level">
-              <button class="btn btn-success">Eazy</button>
-              <button class="btn btn-primary">Medium</button>
-              <button class="btn btn-danger">Hard</button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
     <!-- /.center -->
@@ -160,11 +71,12 @@
     <script src="plugin/slidejs/js/splide.min.js"></script>
     <!-- <script src="memory.js"></script> -->
     <script src="home.js"></script>
+    <script src="load.js"></script>
     <script>
-      new Splide( '#image-carousel', {
-    type   : 'loop',
-    padding: '20%',
-  }  ).mount();
+  //     new Splide( '#image-carousel', {
+  //   type   : 'loop',
+  //   padding: '20%',
+  // }  ).mount();
     </script>
     <!-- <script src="./service-worker.js"></script> -->
   </body>

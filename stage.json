@@ -1,0 +1,42 @@
+[{
+    "user_name": "okogikam",
+    "user_email": "okogikam@gmail.com",
+    "user_pass": "jkluio789",
+    "stages":[
+        {
+            "name": "level 1",
+            "url":"./dist/img/photo1.jpg",
+            "eazy": "00:10:00",
+            "medium": "00:00:00",
+            "hard": "00:00:00"
+        },
+        {
+            "name": "level 2",
+            "url":"./dist/img/photo2.jpg",
+            "eazy": "00:12:00",
+            "medium": "00:00:00",
+            "hard": "00:00:00"
+        },
+        {
+            "name": "level 3",
+            "url":"./dist/img/photo3.jpg",
+            "eazy": "00:13:00",
+            "medium": "00:00:00",
+            "hard": "00:00:00"
+        },
+        {
+            "name": "level 4",
+            "url":"./dist/img/photo4.jpg",
+            "eazy": "00:14:00",
+            "medium": "00:00:00",
+            "hard": "00:00:00"
+        },
+        {
+            "name": "level 5",
+            "url":"./dist/img/photo5.jpg",
+            "eazy": "00:15:00",
+            "medium": "00:00:00",
+            "hard": "00:00:00"
+        }
+    ]
+}]
